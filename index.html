@@ -35,9 +35,22 @@
             font-size: 2.5em;
             color: #2c3e50;
         }
-        header p {
+        header .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
             font-size: 1.1em;
-            margin: 5px 0;
+            margin-top: 5px;
+        }
+        header .contact-info a {
+            color: #2980b9;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        header .contact-info a:hover {
+            color: #1abc9c;
+            text-decoration: underline;
         }
         section {
             margin: 20px 0;
@@ -88,7 +101,11 @@
         <header>
             <h1>Jun Wang (John)</h1>
             <p>33/4 The Nine Towers Grand Rama 9 (Building B) 32 Floor, Huai kwang Bangkok 10310</p>
-            <p><a href="https://www.linkedin.com/in/jun-wang-page/" target="_blank">LinkedIn: Jun Wang</a> | Email: junxw1102@gmail.com</p>
+            <div class="contact-info">
+                <a href="https://www.linkedin.com/in/jun-wang-page/" target="_blank">LinkedIn: Jun Wang</a>
+                <span>|</span>
+                <span>Email: junxw1102@gmail.com</span>
+            </div>
         </header>
         <section id="education">
             <h2>Education</h2>
