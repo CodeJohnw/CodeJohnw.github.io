@@ -80,6 +80,8 @@
         li {
             margin: 15px 0;
             line-height: 1.8;
+            display: flex;
+            justify-content: space-between;
         }
         .job-title, .job-duration, .degree-duration {
             font-style: italic;
@@ -105,9 +107,6 @@
             padding: 3px 6px;
             border-radius: 4px;
         }
-        .align-right {
-            text-align: right;
-        }
         .company-name {
             font-weight: bold;
         }
@@ -117,6 +116,7 @@
         .location {
             font-size: 0.9em;
             color: #555;
+            text-align: right;
         }
         .project-list a {
             display: flex;
@@ -152,26 +152,34 @@
             <h2>Education</h2>
             <ul>
                 <li>
-                    <strong>University of Birmingham</strong>
+                    <div>
+                        <strong>University of Birmingham</strong>
+                        <span>MSc in Railway Systems Engineering and Integration</span>
+                    </div>
                     <div class="location">Birmingham, UK</div>
-                    <span>MSc in Railway Systems Engineering and Integration</span>
-                    <span class="degree-duration">2018 - 2019</span><br>
-                    Dissertation: <a href="path_to_your_summary_file.pdf" target="_blank" class="highlight"><i class="fas fa-file-pdf"></i>Operational scenarios analysis of virtual coupling under different line types</a><br>
-                    Classification: Merit
+                    <div>
+                        Dissertation: <a href="path_to_your_summary_file.pdf" target="_blank" class="highlight"><i class="fas fa-file-pdf"></i>Operational scenarios analysis of virtual coupling under different line types</a>
+                    </div>
+                    <div>Classification: Merit</div>
+                    <div class="degree-duration">2018 - 2019</div>
                 </li>
                 <li>
-                    <strong>Beijing Jiaotong University (BJTU)</strong>
+                    <div>
+                        <strong>Beijing Jiaotong University (BJTU)</strong>
+                        <span>BEng in Traffic and Transportation (Urban Rail Transit)</span>
+                    </div>
                     <div class="location">Beijing, China</div>
-                    <span>BEng in Traffic and Transportation (Urban Rail Transit)</span>
-                    <span class="degree-duration">2014 - 2018</span><br>
-                    Yokohama National University (YNU) Exchange Program<br>
-                    First Class Honor; National Scholarship; The First Prize Scholarship
+                    <div>Yokohama National University (YNU) Exchange Program</div>
+                    <div>First Class Honor; National Scholarship; The First Prize Scholarship</div>
+                    <div class="degree-duration">2014 - 2018</div>
                 </li>
                 <li>
-                    <strong>Beijing Jiaotong University (BJTU)</strong>
+                    <div>
+                        <strong>Beijing Jiaotong University (BJTU)</strong>
+                        <span>BA in English Language and Literature (Minored)</span>
+                    </div>
                     <div class="location">Beijing, China</div>
-                    <span>BA in English Language and Literature (Minored)</span>
-                    <span class="degree-duration">2015 - 2018</span>
+                    <div class="degree-duration">2015 - 2018</div>
                 </li>
             </ul>
         </section>
@@ -179,16 +187,20 @@
             <h2>Professional Experience</h2>
             <ul>
                 <li>
-                    <span class="company-name">China Railway Signal & Communication Co., Ltd (CASCO)</span>
+                    <div>
+                        <span class="company-name">China Railway Signal & Communication Co., Ltd (CASCO)</span>
+                    </div>
                     <div class="location">Bangkok, Thailand</div>
-                    <span class="job-title">System Engineer</span>
-                    <span class="job-duration">Sept 2021 – Present</span>
+                    <div>
+                        <span class="job-title">System Engineer</span>
+                    </div>
+                    <div class="job-duration">Sept 2021 – Present</div>
                     <ul>
                         <li>Work as a Technical Manager at CRSC Asia-Pacific Regional Centre, responsible for bidding activities, technical exchanges, and product research and development.</li>
                         <li>Work as a Signalling Engineer for the SRT ST7 project in Thailand, responsible for the design, installation, testing and commissioning of railway signalling system.</li>
                         <li>Selected project experience:
-                            <ul>
-                                <li>Double Track Railway Project, Nakhon Pathom – Chumphon Section (SRT ST7 Project): Thailand's largest Signalling and Telecommunication endeavour, spans 420km with 59 stations. It encompasses CBI, CTC, and ETCS Level 1 ATP. The Telecommunication aspect features Digital Radio, Data Transmission, and Private Automatic Branch Exchange systems.</
+                        <ul>
+                                <li>Double Track Railway Project, Nakhon Pathom – Chumphon Section (SRT ST7 Project): Thailand's largest Signalling and Telecommunication endeavour, spans 420km with 59 stations. It encompasses CBI, CTC, and ETCS Level 1 ATP. The Telecommunication aspect features Digital Radio, Data Transmission, and Private Automatic Branch Exchange systems.</li>
                                 <li>CRSC Thailand ETCS-1 Laboratory Construction Project, Technical Lead.</li>
                                 <li>CRSC On-Board Equipment and Turnout Switch Equipment Adaptation Modification.</li>
                                 <li>Bidding for Projects such as the Thailand Northern Line and Northeast Line.</li>
@@ -197,10 +209,14 @@
                     </ul>
                 </li>
                 <li>
-                    <span class="company-name">China Railway Signal & Communication Co., Ltd (CASCO)</span>
+                    <div>
+                        <span class="company-name">China Railway Signal & Communication Co., Ltd (CASCO)</span>
+                    </div>
                     <div class="location">Beijing, China</div>
-                    <span class="job-title">Assistant Engineer</span>
-                    <span class="job-duration">Sept 2019 – Sept 2021</span>
+                    <div>
+                        <span class="job-title">Assistant Engineer</span>
+                    </div>
+                    <div class="job-duration">Sept 2019 – Sept 2021</div>
                     <ul>
                         <li>Responsible for design, development and delivery of railway signalling systems:</li>
                         <ul>
@@ -218,10 +234,14 @@
                     </ul>
                 </li>
                 <li>
-                    <span class="company-name">Beijing Transportation Research Institute</span>
+                    <div>
+                        <span class="company-name">Beijing Transportation Research Institute</span>
+                    </div>
                     <div class="location">Beijing, China</div>
-                    <span class="job-title">Research Assistant</span>
-                    <span class="job-duration">Sept 2017 – Jun 2018</span>
+                    <div>
+                        <span class="job-title">Research Assistant</span>
+                    </div>
+                    <div class="job-duration">Sept 2017 – Jun 2018</div>
                     <ul>
                         <li>Conducted thorough data analysis and comprehensive transport research at this research unit under the Beijing Municipal Commission of Transport.</li>
                         <li>Utilized insights to contribute to evidence-based transportation policy development, optimizing efficiency, safety, and sustainability of the city's transportation network.</li>
@@ -233,22 +253,28 @@
             <h2>Teaching Experience</h2>
             <ul>
                 <li>
-                    <strong>Kasetsart University & IRSE (Thailand Section)</strong>
+                    <div>
+                        <strong>Kasetsart University & IRSE (Thailand Section)</strong>
+                    </div>
                     <div class="location">Bangkok, Thailand</div>
-                    Invited Speaker Train Control System at IRSE Annual General Meeting
-                    <span class="degree-duration">Nov 2023</span>
+                    <div>Invited Speaker Train Control System at IRSE Annual General Meeting</div>
+                    <div class="degree-duration">Nov 2023</div>
                 </li>
                 <li>
-                    <strong>Chulalongkorn University</strong>
+                    <div>
+                        <strong>Chulalongkorn University</strong>
+                    </div>
                     <div class="location">Bangkok, Thailand</div>
-                    Invited Speaker for Railway Systems
-                    <span class="degree-duration">Aug 2023</span>
+                    <div>Invited Speaker for Railway Systems</div>
+                    <div class="degree-duration">Aug 2023</div>
                 </li>
                 <li>
-                    <strong>Rajamangala University of Technology Isan (RMUTI)</strong>
+                    <div>
+                        <strong>Rajamangala University of Technology Isan (RMUTI)</strong>
+                    </div>
                     <div class="location">Nakhon Ratchasima, Thailand</div>
-                    Invited Speaker on Railway Engineering
-                    <span class="degree-duration">Dec 2022</span>
+                    <div>Invited Speaker on Railway Engineering</div>
+                    <div class="degree-duration">Dec 2022</div>
                 </li>
             </ul>
         </section>
@@ -267,8 +293,14 @@
         <section id="affiliations">
             <h2>Professional Affiliations & Qualifications</h2>
             <ul>
-                <li>China Railway Society <span class="degree-duration">2020 - Present</span></li>
-                <li>Railway System Engineer <span class="degree-duration">2022 - Present</span></li>
+                <li>
+                    <div>China Railway Society</div>
+                    <div class="degree-duration">2020 - Present</div>
+                </li>
+                <li>
+                    <div>Railway System Engineer</div>
+                    <div class="degree-duration">2022 - Present</div>
+                </li>
             </ul>
         </section>
         <section id="projects" class="project-list">
