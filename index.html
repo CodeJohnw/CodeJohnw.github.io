@@ -14,10 +14,11 @@
         }
         .container {
             width: 80%;
-            margin: 0 auto;
+            margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         header {
             text-align: center;
@@ -26,24 +27,33 @@
         header h1 {
             margin: 0;
             font-size: 2.5em;
+            color: #2c3e50;
         }
         section {
             margin: 20px 0;
         }
         section h2 {
-            border-bottom: 2px solid #333;
+            border-bottom: 2px solid #2c3e50;
             padding-bottom: 10px;
+            color: #2c3e50;
         }
-        .contact-info, .education, .experience, .teaching, .publications, .affiliations {
+        .contact-info, .education, .experience, .teaching, .publications, .affiliations, .projects {
             list-style: none;
             padding: 0;
         }
-        .contact-info li, .education li, .experience li, .teaching li, .publications li, .affiliations li {
-            margin: 5px 0;
+        .contact-info li, .education li, .experience li, .teaching li, .publications li, .affiliations li, .projects li {
+            margin: 10px 0;
         }
         .job-title, .job-duration, .degree-duration {
             font-style: italic;
             color: #555;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -52,7 +62,8 @@
         <header>
             <h1>Jun Wang (John)</h1>
             <p>33/4 The Nine Towers Grand Rama 9 (Building B) 32 Floor, Huai kwang Bangkok 10310</p>
-            <p>+8613146665036 (China), +66996094502 (Thailand) • junxw1102@gmail.com</p>
+            <p><a href="https://www.linkedin.com/in/jun-wang-page/" target="_blank">LinkedIn: Jun Wang</a></p>
+            <p>Email: junxw1102@gmail.com</p>
         </header>
         <section id="education">
             <h2>Education</h2>
@@ -60,7 +71,7 @@
                 <li>
                     <strong>University of Birmingham</strong>, Birmingham, UK<br>
                     MSc in Railway Systems Engineering and Integration <span class="degree-duration">Sep 2018 - Dec 2019</span><br>
-                    Dissertation: Operational scenarios analysis of virtual coupling under different line types<br>
+                    Dissertation: <a href="path_to_your_summary_file.pdf" target="_blank">Operational scenarios analysis of virtual coupling under different line types</a><br>
                     Classification: Merit
                 </li>
                 <li>
@@ -150,6 +161,14 @@
             <ul class="affiliations">
                 <li>China Railway Society <span class="degree-duration">2020 - Present</span></li>
                 <li>Railway System Engineer <span class="degree-duration">2022 - Present</span></li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Programming Projects</h2>
+            <ul class="projects">
+                <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1: Description of Project 1</a></li>
+                <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2: Description of Project 2</a></li>
+                <li><a href="https://github.com/yourusername/project3" target="_blank">Project 3: Description of Project 3</a></li>
             </ul>
         </section>
     </div>
