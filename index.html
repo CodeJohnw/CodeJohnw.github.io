@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人网页</title>
+    <title>Jun Wang (John) - Personal Webpage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,40 +34,122 @@
             border-bottom: 2px solid #333;
             padding-bottom: 10px;
         }
-        .contact-info {
+        .contact-info, .education, .experience, .teaching, .publications, .affiliations {
             list-style: none;
             padding: 0;
         }
-        .contact-info li {
+        .contact-info li, .education li, .experience li, .teaching li, .publications li, .affiliations li {
             margin: 5px 0;
+        }
+        .job-title, .job-duration, .degree-duration {
+            font-style: italic;
+            color: #555;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>我的名字</h1>
-            <p>前端开发工程师</p>
+            <h1>Jun Wang (John)</h1>
+            <p>33/4 The Nine Towers Grand Rama 9 (Building B) 32 Floor, Huai kwang Bangkok 10310</p>
+            <p>+8613146665036 (China), +66996094502 (Thailand) • junxw1102@gmail.com</p>
         </header>
-        <section id="about">
-            <h2>关于我</h2>
-            <p>这里是我的个人简介。我是一名前端开发工程师，拥有多年的开发经验，擅长HTML、CSS、JavaScript等技术。</p>
-        </section>
-        <section id="projects">
-            <h2>项目经历</h2>
-            <ul>
-                <li><strong>项目一：</strong> 这里是项目一的描述。</li>
-                <li><strong>项目二：</strong> 这里是项目二的描述。</li>
-                <li><strong>项目三：</strong> 这里是项目三的描述。</li>
+        <section id="education">
+            <h2>Education</h2>
+            <ul class="education">
+                <li>
+                    <strong>University of Birmingham</strong>, Birmingham, UK<br>
+                    MSc in Railway Systems Engineering and Integration <span class="degree-duration">Sep 2018 - Dec 2019</span><br>
+                    Dissertation: Operational scenarios analysis of virtual coupling under different line types<br>
+                    Classification: Merit
+                </li>
+                <li>
+                    <strong>Beijing Jiaotong University (BJTU)</strong>, Beijing, China<br>
+                    BEng in Traffic and Transportation (Urban Rail Transit) <span class="degree-duration">Sep 2014 - Jul 2018</span><br>
+                    Yokohama National University (YNU) Exchange Program<br>
+                    First Class Honor; National Scholarship; The First Prize Scholarship
+                </li>
+                <li>
+                    <strong>Beijing Jiaotong University (BJTU)</strong>, Beijing, China<br>
+                    BA in English Language and Literature (Minored) <span class="degree-duration">Oct 2015 - Jul 2018</span>
+                </li>
             </ul>
         </section>
-        <section id="contact">
-            <h2>联系信息</h2>
-            <ul class="contact-info">
-                <li>Email: myemail@example.com</li>
-                <li>Phone: 123-456-7890</li>
-                <li>LinkedIn: <a href="https://linkedin.com/in/myprofile" target="_blank">我的LinkedIn</a></li>
-                <li>GitHub: <a href="https://github.com/myusername" target="_blank">我的GitHub</a></li>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <ul class="experience">
+                <li>
+                    <strong>China Railway Signal & Communication Co., Ltd (CASCO)</strong>, Bangkok, Thailand<br>
+                    <span class="job-title">System Engineer</span> <span class="job-duration">Sept 2021– Present</span><br>
+                    • Work as a Technical Manager at CRSC Asia-Pacific Regional Centre, responsible for bidding activities, technical exchanges, and product research and development.<br>
+                    • Work as a Signalling Engineer for the SRT ST7 project in Thailand, responsible for the design, installation, testing and commissioning of railway signalling system.<br>
+                    • Selected project experience:
+                    <ul>
+                        <li>Double Track Railway Project, Nakhon Pathom – Chumphon Section (SRT ST7 Project): Thailand's largest Signalling and Telecommunication endeavour, spans 420km with 59 stations. It encompasses CBI, CTC, and ETCS Level 1 ATP. The Telecommunication aspect features Digital Radio, Data Transmission, and Private Automatic Branch Exchange systems.</li>
+                        <li>CRSC Thailand ETCS-1 Laboratory Construction Project, Technical Lead.</li>
+                        <li>CRSC On-Board Equipment and Turnout Switch Equipment Adaptation Modification.</li>
+                        <li>Bidding for Projects such as the Thailand Northern Line and Northeast Line.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>China Railway Signal & Communication Co., Ltd (CASCO)</strong>, Beijing, China<br>
+                    <span class="job-title">Assistant Engineer</span> <span class="job-duration">Sep 2019– Sep 2021</span><br>
+                    • Responsible for design, development and delivery of railway signalling systems:<br>
+                    <ul>
+                        <li>Oversaw the production of railway signalling designs, ensuring compliance with requirements and performance targets.</li>
+                        <li>Prepared technical proposals and documentation for diverse railway projects globally.</li>
+                        <li>Played a significant role in the products research and development through requirements analysis, prototype development, and on-site testing.</li>
+                    </ul>
+                    • Selected project experience:
+                    <ul>
+                        <li>Research on Digital Signalling Systems Based on the EULYNX Standard.</li>
+                        <li>Signalling System Renovation Project at Thanaleng Station, Laos.</li>
+                        <li>Tender Project for Signal Renovation in Durban, South Africa.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Beijing Transportation Research Institute</strong>, Beijing, China<br>
+                    <span class="job-title">Research Assistant</span> <span class="job-duration">Sep 2017 – Jun 2018</span><br>
+                    • Conducted thorough data analysis and comprehensive transport research at this research unit under the Beijing Municipal Commission of Transport.<br>
+                    • Utilized insights to contribute to evidence-based transportation policy development, optimizing efficiency, safety, and sustainability of the city's transportation network.
+                </li>
+            </ul>
+        </section>
+        <section id="teaching">
+            <h2>Teaching Experience</h2>
+            <ul class="teaching">
+                <li>
+                    <strong>Kasetsart University & IRSE (Thailand Section)</strong>, Bangkok, Thailand<br>
+                    Invited Speaker Train Control System at IRSE Annual General Meeting <span class="degree-duration">Nov 2023</span>
+                </li>
+                <li>
+                    <strong>Chulalongkorn University</strong>, Bangkok, Thailand<br>
+                    Invited Speaker for Railway Systems <span class="degree-duration">Aug 2023</span>
+                </li>
+                <li>
+                    <strong>Rajamangala University of Technology Isan (RMUTI)</strong>, Nakhon Ratchasima, Thailand<br>
+                    Invited Speaker on Railway Engineering <span class="degree-duration">Dec 2022</span>
+                </li>
+            </ul>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul class="publications">
+                <li>
+                    <strong>Invention Patents</strong>
+                    <ul>
+                        <li>CN202211632465.X, A Railway Level Crossing Early Warning Method, Apparatus, and Control System</li>
+                        <li>CN202310012190.8, A Railway Level Crossing Early Warning Method, Apparatus, and Control System</li>
+                        <li>CN202310011840.7, A Railway Level Crossing Early Warning Method, Apparatus, and Control System</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="affiliations">
+            <h2>Professional Affiliations & Qualifications</h2>
+            <ul class="affiliations">
+                <li>China Railway Society <span class="degree-duration">2020 - Present</span></li>
+                <li>Railway System Engineer <span class="degree-duration">2022 - Present</span></li>
             </ul>
         </section>
     </div>
