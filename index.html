@@ -80,12 +80,31 @@
         li {
             margin: 15px 0;
             line-height: 1.8;
+        }
+        .degree, .job {
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
         }
-        .job-title, .job-duration, .degree-duration {
+        .degree span, .job span {
+            flex: 1;
+        }
+        .degree-duration, .job-duration {
             font-style: italic;
             color: #555;
+            text-align: right;
+        }
+        .company-name, .university-name {
+            font-weight: bold;
+        }
+        .location {
+            font-size: 0.9em;
+            color: #555;
+            text-align: right;
+        }
+        .description {
+            padding-left: 20px;
         }
         a {
             color: #2980b9;
@@ -106,17 +125,6 @@
             background-color: #f0f8ff;
             padding: 3px 6px;
             border-radius: 4px;
-        }
-        .company-name {
-            font-weight: bold;
-        }
-        .job-duration {
-            font-size: 0.9em;
-        }
-        .location {
-            font-size: 0.9em;
-            color: #555;
-            text-align: right;
         }
         .project-list a {
             display: flex;
@@ -140,7 +148,6 @@
 <body>
     <div class="container">
         <header>
-            <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
             <h1>Jun Wang (John)</h1>
             <p>33/4 The Nine Towers Grand Rama 9 (Building B) 32 Floor, Huai kwang Bangkok 10310</p>
             <div class="contact-info">
@@ -152,34 +159,42 @@
             <h2>Education</h2>
             <ul>
                 <li>
-                    <div>
-                        <strong>University of Birmingham</strong>
+                    <div class="degree">
+                        <span class="university-name">University of Birmingham</span>
+                        <span class="degree-duration">Sep 2018 - Dec 2019</span>
+                    </div>
+                    <div class="degree">
                         <span>MSc in Railway Systems Engineering and Integration</span>
+                        <span class="location">Birmingham, UK</span>
                     </div>
-                    <div class="location">Birmingham, UK</div>
-                    <div>
-                        Dissertation: <a href="path_to_your_summary_file.pdf" target="_blank" class="highlight"><i class="fas fa-file-pdf"></i>Operational scenarios analysis of virtual coupling under different line types</a>
+                    <div class="description">
+                        <p>Dissertation: <a href="path_to_your_summary_file.pdf" target="_blank" class="highlight"><i class="fas fa-file-pdf"></i>Operational scenarios analysis of virtual coupling under different line types</a></p>
+                        <p>Classification: Merit</p>
                     </div>
-                    <div>Classification: Merit</div>
-                    <div class="degree-duration">2018 - 2019</div>
                 </li>
                 <li>
-                    <div>
-                        <strong>Beijing Jiaotong University (BJTU)</strong>
+                    <div class="degree">
+                        <span class="university-name">Beijing Jiaotong University (BJTU)</span>
+                        <span class="degree-duration">2014 - 2018</span>
+                    </div>
+                    <div class="degree">
                         <span>BEng in Traffic and Transportation (Urban Rail Transit)</span>
+                        <span class="location">Beijing, China</span>
                     </div>
-                    <div class="location">Beijing, China</div>
-                    <div>Yokohama National University (YNU) Exchange Program</div>
-                    <div>First Class Honor; National Scholarship; The First Prize Scholarship</div>
-                    <div class="degree-duration">2014 - 2018</div>
+                    <div class="description">
+                        <p>Yokohama National University (YNU) Exchange Program</p>
+                        <p>First Class Honor; National Scholarship; The First Prize Scholarship</p>
+                    </div>
                 </li>
                 <li>
-                    <div>
-                        <strong>Beijing Jiaotong University (BJTU)</strong>
-                        <span>BA in English Language and Literature (Minored)</span>
+                    <div class="degree">
+                        <span class="university-name">Beijing Jiaotong University (BJTU)</span>
+                        <span class="degree-duration">2015 - 2018</span>
                     </div>
-                    <div class="location">Beijing, China</div>
-                    <div class="degree-duration">2015 - 2018</div>
+                    <div class="degree">
+                        <span>BA in English Language and Literature (Minored)</span>
+                        <span class="location">Beijing, China</span>
+                    </div>
                 </li>
             </ul>
         </section>
