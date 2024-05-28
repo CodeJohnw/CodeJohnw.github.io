@@ -6,135 +6,178 @@
     <title>Jun Wang CV</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
-            margin: 40px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .header p {
+            margin: 5px 0;
         }
         .section {
-            margin-bottom: 30px;
+            margin-top: 30px;
         }
         .section-title {
-            font-weight: bold;
+            font-size: 1.5em;
+            color: #0056b3;
             margin-bottom: 10px;
+            border-bottom: 2px solid #0056b3;
+            display: inline-block;
+            padding-bottom: 5px;
         }
         .subsection {
             margin-left: 20px;
+            margin-top: 15px;
         }
         .subsection-title {
-            font-style: italic;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
             margin-bottom: 5px;
         }
-        .contact-info, .education, .experience, .teaching, .publications, .affiliations {
-            margin-bottom: 20px;
+        .contact-info p {
+            font-size: 1em;
+            color: #555;
+        }
+        ul {
+            list-style-type: disc;
+            margin: 10px 0 10px 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="contact-info">
-        <p>Jun Wang (John)</p>
-        <p>33/4 The Nine Towers Grand Rama 9 (Building B) 32 Floor Huai kwang Bangkok 10310</p>
-        <p>+8613146665036 (China) +66996094502 (Thailand)</p>
-        <p>junxw1102@gmail.com</p>
-    </div>
+    <div class="container">
+        <div class="header">
+            <p><strong>Jun Wang (John)</strong></p>
+            <p>33/4 The Nine Towers Grand Rama 9 (Building B) 32 Floor Huai kwang Bangkok 10310</p>
+            <p>+8613146665036 (China) +66996094502 (Thailand)</p>
+            <p><a href="mailto:junxw1102@gmail.com">junxw1102@gmail.com</a></p>
+        </div>
 
-    <div class="section education">
-        <div class="section-title">EDUCATION</div>
-        <div class="subsection">
-            <div class="subsection-title">University of Birmingham, Birmingham UK</div>
-            <p>MSc in Railway Systems Engineering and Integration (Sep 2018 - Dec 2019)</p>
-            <p>Dissertation: Operational scenarios analysis of virtual coupling under different line types</p>
-            <p>Classification: Merit</p>
+        <div class="section education">
+            <div class="section-title">EDUCATION</div>
+            <div class="subsection">
+                <div class="subsection-title">University of Birmingham, Birmingham UK</div>
+                <p>MSc in Railway Systems Engineering and Integration (Sep 2018 - Dec 2019)</p>
+                <p>Dissertation: Operational scenarios analysis of virtual coupling under different line types</p>
+                <p>Classification: Merit</p>
+            </div>
+            <div class="subsection">
+                <div class="subsection-title">Beijing Jiaotong University (BJTU), Beijing China</div>
+                <p>BEng in Traffic and Transportation (Urban Rail Transit) (Sep 2014 - Jul 2018)</p>
+                <p>Yokohama National University (YNU) Exchange Program</p>
+                <p>First Class Honor; National Scholarship; The First Prize Scholarship</p>
+            </div>
+            <div class="subsection">
+                <div class="subsection-title">Beijing Jiaotong University (BJTU), Beijing China</div>
+                <p>BA in English Language and Literature (Minored) (Oct 2015 - Jul 2018)</p>
+            </div>
         </div>
-        <div class="subsection">
-            <div class="subsection-title">Beijing Jiaotong University (BJTU), Beijing China</div>
-            <p>BEng in Traffic and Transportation (Urban Rail Transit) (Sep 2014 - Jul 2018)</p>
-            <p>Yokohama National University (YNU) Exchange Program</p>
-            <p>First Class Honor; National Scholarship; The First Prize Scholarship</p>
-        </div>
-        <div class="subsection">
-            <div class="subsection-title">Beijing Jiaotong University (BJTU), Beijing China</div>
-            <p>BA in English Language and Literature (Minored) (Oct 2015 - Jul 2018)</p>
-        </div>
-    </div>
 
-    <div class="section experience">
-        <div class="section-title">PROFESSIONAL EXPERIENCE</div>
-        <div class="subsection">
-            <div class="subsection-title">China Railway Signal & Communication Co. Ltd (CASCO), Bangkok Thailand</div>
-            <p>System Engineer (Sept 2021 – Present)</p>
-            <ul>
-                <li>Work as a Technical Manager at CRSC Asia-Pacific Regional Centre responsible for bidding activities, technical exchanges, and product research and development.</li>
-                <li>Work as a Signalling Engineer for the SRT ST7 project in Thailand responsible for the design, installation, testing, and commissioning of railway signalling system.</li>
-                <li>Selected project Experience:</li>
+        <div class="section experience">
+            <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+            <div class="subsection">
+                <div class="subsection-title">China Railway Signal & Communication Co. Ltd (CASCO), Bangkok Thailand</div>
+                <p>System Engineer (Sept 2021 – Present)</p>
                 <ul>
-                    <li>Double Track Railway Project Nakhon Pathom – Chumphon Section (SRT ST7 Project): Thailand's largest Signalling and Telecommunication endeavour spans 420km with 59 stations. It encompasses CBI, CTC, and ETCS Level 1 ATP. The Telecommunication aspect features Digital Radio Data Transmission and Private Automatic Branch Exchange systems.</li>
-                    <li>CRSC Thailand ETCS-1 Laboratory Construction Project Technical Lead.</li>
-                    <li>CRSC On-Board Equipment and Turnout Switch Equipment Adaptation Modification.</li>
-                    <li>Bidding for Projects such as the Thailand Northern Line and Northeast Line.</li>
-                </ul>
-            </ul>
-        </div>
-        <div class="subsection">
-            <div class="subsection-title">China Railway Signal & Communication Co. Ltd (CASCO), Beijing China</div>
-            <p>Assistant Engineer (Sep 2019 – Sep 2021)</p>
-            <ul>
-                <li>Responsible for design, development, and delivery of railway signalling systems:</li>
-                <ul>
-                    <li>Oversaw the production of railway signalling designs, ensuring compliance with requirements and performance targets.</li>
-                    <li>Prepared technical proposals and documentation for diverse railway projects globally.</li>
-                    <li>Played a significant role in the product's research and development through requirements analysis, prototype development, and on-site testing.</li>
+                    <li>Work as a Technical Manager at CRSC Asia-Pacific Regional Centre responsible for bidding activities, technical exchanges, and product research and development.</li>
+                    <li>Work as a Signalling Engineer for the SRT ST7 project in Thailand responsible for the design, installation, testing, and commissioning of railway signalling system.</li>
                     <li>Selected project Experience:</li>
                     <ul>
-                        <li>Research on Digital Signalling Systems Based on the EULYNX Standard</li>
-                        <li>Signalling System Renovation Project at Thanaleng Station, Laos</li>
-                        <li>Tender Project for Signal Renovation in Durban, South Africa</li>
+                        <li>Double Track Railway Project Nakhon Pathom – Chumphon Section (SRT ST7 Project): Thailand's largest Signalling and Telecommunication endeavour spans 420km with 59 stations. It encompasses CBI, CTC, and ETCS Level 1 ATP. The Telecommunication aspect features Digital Radio Data Transmission and Private Automatic Branch Exchange systems.</li>
+                        <li>CRSC Thailand ETCS-1 Laboratory Construction Project Technical Lead.</li>
+                        <li>CRSC On-Board Equipment and Turnout Switch Equipment Adaptation Modification.</li>
+                        <li>Bidding for Projects such as the Thailand Northern Line and Northeast Line.</li>
                     </ul>
                 </ul>
-            </ul>
+            </div>
+            <div class="subsection">
+                <div class="subsection-title">China Railway Signal & Communication Co. Ltd (CASCO), Beijing China</div>
+                <p>Assistant Engineer (Sep 2019 – Sep 2021)</p>
+                <ul>
+                    <li>Responsible for design, development, and delivery of railway signalling systems:</li>
+                    <ul>
+                        <li>Oversaw the production of railway signalling designs, ensuring compliance with requirements and performance targets.</li>
+                        <li>Prepared technical proposals and documentation for diverse railway projects globally.</li>
+                        <li>Played a significant role in the product's research and development through requirements analysis, prototype development, and on-site testing.</li>
+                        <li>Selected project Experience:</li>
+                        <ul>
+                            <li>Research on Digital Signalling Systems Based on the EULYNX Standard</li>
+                            <li>Signalling System Renovation Project at Thanaleng Station, Laos</li>
+                            <li>Tender Project for Signal Renovation in Durban, South Africa</li>
+                        </ul>
+                    </ul>
+                </ul>
+            </div>
+            <div class="subsection">
+                <div class="subsection-title">Beijing Transportation Research Institute, Beijing China</div>
+                <p>Research Assistant (Sep 2017 – Jun 2018)</p>
+                <ul>
+                    <li>Conducted thorough data analysis and comprehensive transport research at this research unit under the Beijing Municipal Commission of Transport.</li>
+                    <li>Utilized insights to contribute to evidence-based transportation policy development, optimizing efficiency, safety, and sustainability of the city's transportation network.</li>
+                </ul>
+            </div>
         </div>
-        <div class="subsection">
-            <div class="subsection-title">Beijing Transportation Research Institute, Beijing China</div>
-            <p>Research Assistant (Sep 2017 – Jun 2018)</p>
-            <ul>
-                <li>Conducted thorough data analysis and comprehensive transport research at this research unit under the Beijing Municipal Commission of Transport.</li>
-                <li>Utilized insights to contribute to evidence-based transportation policy development, optimizing efficiency, safety, and sustainability of the city's transportation network.</li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="section teaching">
-        <div class="section-title">TEACHING EXPERIENCE</div>
-        <div class="subsection">
-            <div class="subsection-title">Kasetsart University & IRSE (Thailand Section), Bangkok Thailand</div>
-            <p>Invited Speaker Train Control System at IRSE Annual General Meeting (Nov 2023)</p>
+        <div class="section teaching">
+            <div class="section-title">TEACHING EXPERIENCE</div>
+            <div class="subsection">
+                <div class="subsection-title">Kasetsart University & IRSE (Thailand Section), Bangkok Thailand</div>
+                <p>Invited Speaker Train Control System at IRSE Annual General Meeting (Nov 2023)</p>
+            </div>
+            <div class="subsection">
+                <div class="subsection-title">Chulalongkorn University, Bangkok Thailand</div>
+                <p>Invited Speaker for Railway Systems (Aug 2023)</p>
+            </div>
+            <div class="subsection">
+                <div class="subsection-title">Rajamangala University of Technology Isan (RMUTI), Nakhon Ratchasima Thailand</div>
+                <p>Invited Speaker on Railway Engineering (Dec 2022)</p>
+            </div>
         </div>
-        <div class="subsection">
-            <div class="subsection-title">Chulalongkorn University, Bangkok Thailand</div>
-            <p>Invited Speaker for Railway Systems (Aug 2023)</p>
-        </div>
-        <div class="subsection">
-            <div class="subsection-title">Rajamangala University of Technology Isan (RMUTI), Nakhon Ratchasima Thailand</div>
-            <p>Invited Speaker on Railway Engineering (Dec 2022)</p>
-        </div>
-    </div>
 
-    <div class="section publications">
-        <div class="section-title">PUBLICATIONS</div>
-        <div class="subsection">
-            <p>Invention Patents:</p>
-            <ul>
-                <li>CN202211632465.X A Railway Level Crossing Early Warning Method, Apparatus, and Control System</li>
-                <li>CN202310012190.8 A Railway Level Crossing Early Warning Method, Apparatus, and Control System</li>
-                <li>CN202310011840.7 A Railway Level Crossing Early Warning Method, Apparatus, and Control System</li>
-            </ul>
+        <div class="section publications">
+            <div class="section-title">PUBLICATIONS</div>
+            <div class="subsection">
+                <p>Invention Patents:</p>
+                <ul>
+                    <li>CN202211632465.X A Railway Level Crossing Early Warning Method, Apparatus, and Control System</li>
+                    <li>CN202310012190.8 A Railway Level Crossing Early Warning Method, Apparatus, and Control System</li>
+                    <li>CN202310011840.7 A Railway Level Crossing Early Warning Method, Apparatus, and Control System</li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <div class="section affiliations">
-        <div class="section-title">PROFESSIONAL AFFILIATIONS & QUALIFICATIONS</div>
-        <div class="subsection">
-            <p>China Railway Society (2020 - Present)</p>
-            <p>Railway System Engineer (2022 - Present)</p>
+        <div class="section affiliations">
+            <div class="section-title">PROFESSIONAL AFFILIATIONS & QUALIFICATIONS</div>
+            <div class="subsection">
+                <p>China Railway Society (2020 - Present)</p>
+                <p>Railway System Engineer (2022 - Present)</p>
+            </div>
         </div>
     </div>
 </body>
